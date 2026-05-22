@@ -1,20 +1,9 @@
 {
-  "name": "hexlet",
+  "name": "hexlet-js",
   "version": "1.0.0",
-  "description": "Мой первый проект на Hexlet",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "module",
-    "url": "git+https://github.com/NovaComeback/hexlet-js.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NovaComeback/hexlet-js/issues"
-  },
-  "homepage": "https://github.com/NovaComeback/hexlet-js#readme"
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
