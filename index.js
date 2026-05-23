@@ -1,5 +1,6 @@
-```javascript
-import runApplication from './src/index.js';
+import runApplication from './src/index.js'
+import _ from 'lodash'
 
-runApplication();import _ from "lodash";
-console.log(_.last(["one", "two"]));
+runApplication()
+
+console.log(_.last(['one', 'two']))
